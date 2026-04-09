@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteApp.WebApi", "NoteApp.WebApi\NoteApp.WebApi.csproj", "{A56432EC-4AA6-4A85-BED8-D6118A669A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteApp.Identity", "NoteApp.Identity\NoteApp.Identity.csproj", "{AD7967D5-8EF5-4EE0-A9CA-CF1D13046D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteApp.DbContext", "NoteApp.DbContext\NoteApp.DbContext.csproj", "{09430C30-5F68-4953-8F72-5D8C32CD7B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56432EC-4AA6-4A85-BED8-D6118A669A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56432EC-4AA6-4A85-BED8-D6118A669A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56432EC-4AA6-4A85-BED8-D6118A669A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56432EC-4AA6-4A85-BED8-D6118A669A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7967D5-8EF5-4EE0-A9CA-CF1D13046D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7967D5-8EF5-4EE0-A9CA-CF1D13046D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7967D5-8EF5-4EE0-A9CA-CF1D13046D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7967D5-8EF5-4EE0-A9CA-CF1D13046D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09430C30-5F68-4953-8F72-5D8C32CD7B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09430C30-5F68-4953-8F72-5D8C32CD7B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09430C30-5F68-4953-8F72-5D8C32CD7B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09430C30-5F68-4953-8F72-5D8C32CD7B16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

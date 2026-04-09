@@ -1,0 +1,27 @@
+### Create note
+PUT {{hostaddress}}/notes/1?isFavorite=true
+Content-Type: application/json
+
+"This is the content of my first note."
+
+### Create note no queryparam
+PUT {{hostaddress}}/notes/2
+Content-Type: application/json
+
+"This is the content of my first note 2."
+
+###
+GET {{hostaddress}}/notes/3
+Accept: application/json
+
+###
+GET {{hostaddress}}/notes/2
+Accept: application/json
+
+### 3. Get All Note IDs
+GET {{hostaddress}}/notes
+Accept: application/json
+
+### 4. Get All Favorite Notes
+GET {{hostaddress}}/notes/favorites
+Accept: application/json

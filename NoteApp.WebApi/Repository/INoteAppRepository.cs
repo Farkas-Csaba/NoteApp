@@ -48,6 +48,7 @@ public class NoteAppRepository : INoteAppRepository
         else
         {
             existingNote.Content = content;
+            existingNote.IsFavorite = isFavorite;
         }
 
         await _appDbContext.SaveChangesAsync();

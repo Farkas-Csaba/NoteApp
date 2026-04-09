@@ -15,12 +15,10 @@ public interface INoteAppService
 
 public class NoteAppService : INoteAppService
 {
-    private readonly NoteAppDbContext _appDbContext;
     private readonly INoteAppRepository _appRepository;
 
-    public NoteAppService(NoteAppDbContext appDbContext, INoteAppRepository appRepository)
+    public NoteAppService( INoteAppRepository appRepository)
     {
-        _appDbContext = appDbContext;
         _appRepository = appRepository;
     }
     public async Task<string> AddNote(int id, string content, bool isFavorite)

@@ -8,7 +8,6 @@ namespace NoteApp.Repository;
 public interface INoteAppRepository
 {
     Task<string> SaveNoteContent(int id, string content, bool isFavorite);
-    Task<bool> CheckExists(int id);
     Task<Notes> GetNoteWithFavorite(int id);
     Task<IEnumerable<int>> GetAllIds();
     Task<IEnumerable<Notes>> GetFavoriteNotes();

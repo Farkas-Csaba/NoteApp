@@ -35,11 +35,7 @@ public class NoteAppService : INoteAppService
 
     public async Task<Notes> GetNote(int id)
     {
-        if (!(await _appRepository.CheckExists(id)))
-        {
-            return null;
-        }
-
+        
         return await _appRepository.GetNoteWithFavorite(id);
     }
 
